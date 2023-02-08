@@ -1,0 +1,60 @@
+body {
+    background-color: #252525;
+    font-family: Arial, Helvetic, sans-serif;
+    color: white;
+}
+
+/*   set body font & background  */
+
+
+.wrapper {
+    width: 80%;
+    max-width: 960px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1em;
+}
+
+header {
+    background-image: url(apex2.jpg);
+    font-family: Georgia, Times New Roman, serif;
+    height: 100px;
+    color: darkorange;
+    text-indent: 1em;
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+
+main h2 {
+    font-family: 'Black Ops One', cursive;
+
+
+
+}
+
+a:link {
+    color: #C66924;
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: #993300;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFCC00;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #CC0000;
+}
+
+footer {
+    border-top: 1px solid gray padding: 10px;
+}

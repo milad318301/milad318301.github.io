@@ -1,0 +1,366 @@
+.wrapper {}
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+	background-color: #252525;
+	width: 100%;
+}
+
+.color {
+	background-color: #e1dad0;
+}
+
+.header {
+	background-image: url(apex24.jpg);
+	display: block;
+	margin: 0px;
+	padding: 1.5em;
+	text-align: center;
+	font-family: Georgia, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 2em;
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+	height: 12em;
+	border-bottom: 0px solid black;
+	background-size: cover;
+}
+
+.legend {
+	background-image: url(apex.png);
+	display: block;
+	margin: 0px;
+	padding: 1.5em;
+	text-align: center;
+	font-family: Georgia, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 2em;
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+	height: 12em;
+	border-bottom: 0px solid black;
+	background-size: cover;
+}
+
+.Meet {
+	color: white;
+	font-family: 'Lalezar', cursive;
+	border: #C44D33;
+}
+
+h1,
+h2 {
+	font-size: 4.5em;
+}
+
+h1 {
+	height: .5em;
+	color: white;
+	font-family: 'Black Ops One', cursive;
+	letter-spacing: 2px;
+	text-shadow: 3px 7px black;
+}
+
+h2 {
+	color: white;
+	line-height: 0;
+	font-size: 1.5em;
+	font-family: 'Black Ops One', cursive;
+	text-shadow: 3px 7px black;
+	letter-spacing: 10px;
+}
+
+
+.resort {
+	color: snow;
+	text-shadow: 2px 2px #252525;
+	font-size: 40px;
+	letter-spacing: 2px;
+	border-top: 2px solid #252525;
+}
+
+.float {
+	position: absolute;
+	left: 2px;
+	top: 1px;
+	height: 2.5em;
+	margin-left: 10px;
+
+}
+
+nav {
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+
+}
+
+
+nav ul {
+	list-style-type: none;
+	font-size: 2em;
+	margin: 20px;
+
+
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	padding-left: 4em;
+	padding-right: em;
+	background-color: black;
+	color: white;
+}
+
+nav a:link {
+	color: white
+}
+
+nav a:visited {
+	color:
+		#bf0000;
+}
+
+nav a:hover {
+	color: rgba(255, 255, 255, .5)
+}
+
+nav a:active {
+	color: gray;
+}
+
+.top {
+	background-image: url(canon.jpg);
+	display: block;
+	margin: 0px;
+	padding: 2.5em;
+	text-align: center;
+	font-family: Georgia, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 2em;
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+	height: 12em;
+	border-bottom: 5px solid black;
+
+}
+
+.container {
+	width: 95%;
+	overflow: hidden;
+	margin: auto;
+
+}
+
+.container ul {
+	padding-left: 50px;
+	margin-left: 50px;
+}
+
+.container ul li {
+	list-style: none;
+	float: left;
+	width: 30%;
+	height: 40%;
+	box-sizing: border-box;
+
+}
+
+.container li {
+	display: flex;
+}
+
+figcaption {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-family: var(--ea-theme-typographic-headings-font-family);
+	text-transform: uppercase;
+	font-size: 30px;
+	text-shadow: 1px 1px black;
+}
+
+h3 {
+	width: 600px;
+	border-bottom: 1px solid black;
+	text-shadow: 1px 1px black;
+}
+
+#text {
+	position: relative;
+	max-width: 600px;
+	color: black;
+	text-align: justify;
+
+}
+
+.home {
+	background-image: url(giphy.gif);
+	display: block;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	height: 427px;
+}
+
+.style {
+	text-align: center;
+
+
+	margin: 0;
+	padding: 0;
+	height: 2em;
+	font-size: 35px;
+	border-bottom: 1px solid white 0.3;
+
+}
+
+
+.style ul {
+	list-style-type: none;
+}
+
+.style li {
+	display: inline;
+	padding-right: 100px;
+
+}
+
+.style a {
+	text-decoration: none;
+	color: white;
+
+}
+
+footer {
+	color: white;
+	text-align: center;
+	border: none;
+}
+
+
+footer div {
+	color: white;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 20px;
+	border-top: 1px solid white;
+	padding-bottom: 1px;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: red
+}
+
+footer a:link {
+	color: white
+}
+
+footer a:visited {
+	color:
+		#bf0000;
+}
+
+footer a:hover {
+	color: rgba(255, 255, 255, .5)
+}
+
+footer a:active {
+	color: gray;
+}
+
+
+.p2 {
+	color: #C44D33;
+	text-align: center;
+	text-shadow: 2px 3px black;
+	font-family: 'Knewave', cursive;
+	font-size: 1.3em;
+
+}
+
+.bloodhound {
+	padding-bottom: 5px;
+}
+
+.about {
+	background-image: url(aboutimg.jpg
+);
+	display: block;
+	margin: 0px;
+	padding: 1.5em;
+	text-align: center;
+	font-family: Georgia, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 2em;
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+	height: 12em;
+	border-bottom: 0px solid black;
+	background-size: cover;
+}
+
+.desgin {
+	border: 5px solid white;
+	color: #C44D33;
+}
+
+.ptag {
+	text-align: center;
+	color: white;
+
+	font-size: 1.2em;
+	overflow: auto
+}
+
+.htag {
+	text-align: center;
+}
+
+.help {
+	background-color: #e1dad0;
+	display: block;
+	margin: 0px;
+	padding: 1.5em;
+	text-align: center;
+	font-family: Georgia, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 2em;
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+	height: 12em;
+	border-bottom: 0px solid black;
+	background-size: cover;
+}
+
+.needhelp {
+	color: #C44D33;
+	font-size: .9em;
+	font-weight: bold;
+	margin-bottom: 5em;
+}
+
+.helpmain {
+	margin: 10px;
+}
+
+ol {
+	color: white;
+	margin-bottom: 30px
+	
+}
+
+ol li {
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold
+}
+}
